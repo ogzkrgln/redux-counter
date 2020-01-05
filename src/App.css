@@ -1,0 +1,54 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.App {
+  text-align: center;
+  font-size: 1rem;
+  display: flex;
+  flex:1;
+  align-items: center;
+}
+button{
+  font-size: 20px;
+  padding:10px;
+  border-radius: 20%;
+  background-color: aqua;
+}
+.container {
+  position:relative;
+  height:300px;
+  width:700px;
+  display:flex;
+  flex:2;
+  padding:50px;
+  justify-content: center;
+  align-items: center;
+}
+h6{
+  font-size: 45px;
+}
+.item {
+  position: relative;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  font-size: 44px;
+  border: 1px solid black;
+  margin: 20px;
+  padding:  10;
+ 
+}
+h4{
+  margin:10px;
+  border:1px solid black;
+  border-radius: 5px;
+  background-color: yellow;
+}
+h5 {
+  position: absolute;
+  justify-content: flex-start;
+}
+h3{
+  margin-top: 50px;
+}
